@@ -1,0 +1,21 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+.box-1 {
+  border: 5px solid black;
+  padding: 1em;
+  margin: 5%;
+  height: 200px;
+  width: 300px;
+
+  overflow-y: auto;
+}
+
+.box-2 {
+  border: 5px solid black;
+  margin: 5%;
+  height: 200px;
+  width: 300px;
+  overflow: hidden;
+}

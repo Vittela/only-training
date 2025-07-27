@@ -1,0 +1,20 @@
+body {
+    font: 1.2em / 1.5 sans-serif;
+}
+
+a {
+  border: 5px solid grey;
+  margin: 5%;
+}
+
+a[title="Visit example.com"]{
+    border-color: pink;
+}
+
+a[href*="contact"]{
+    border-color: orange;
+}
+
+a[href^="https"]{
+    border-color: green;
+}

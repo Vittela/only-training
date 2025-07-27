@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+div[class*="box"]{
+  padding: 3%;
+  margin: 5% 15% 5% 15%;
+}
+
+.box_1{
+  border: 5px solid black;
+  border-radius: 5px;
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+  background-size: contain;
+}
+.box_1 > h2{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.box_2{
+  border: 20px solid aquamarine;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  text-align: center;
+}
+.box_2 > h2{
+  background: 
+  url(https://mdn.github.io/shared-assets/images/examples/star.png) no-repeat left center,
+  url(https://mdn.github.io/shared-assets/images/examples/star.png) repeat-y right center;
+  padding: 5%;
+}
