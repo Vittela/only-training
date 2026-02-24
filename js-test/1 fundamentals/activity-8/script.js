@@ -4,7 +4,7 @@ function factorial(x) {
   let total = 1
 
   for (i = x; i > 0; i--) {
-    total *= i
+    total = total * i
     console.log(i)
   }
 
